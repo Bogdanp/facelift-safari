@@ -1,0 +1,10 @@
+/* ==UserStyle==
+@name        GitHub Fonts
+@description Changes the code fonts on GitHub
+@match       https://github.com/*
+==/UserStyle== */
+
+code, pre, .blob-code, .blob-code-inner {
+  font-family: 'Source Code Pro', 'Andale Mono', monospace !important;
+  font-size: 12px !important;
+}
